@@ -1,0 +1,703 @@
+[
+    {
+        "id": "aesop_potion",
+        "name": "Aesop potion",
+        "description": "Increases riding and dog-handling skills. If good quality, animals will take less notice of you and dogs won't bark at you.",
+        "base": "Spirits",
+        "ingredients": [
+            {
+                "item": "Belladonna",
+                "quantity": 1
+            },
+            {
+                "item": "Boar's tusk⁠",
+                "quantity": 1
+            },
+            {
+                "item": "Comfrey",
+                "quantity": 2
+            }
+        ],
+        "instructions": [
+            "Grind the comfrey and add it to the cauldron.",
+            "Add the boar's tusk to the cauldron and boil for 2 turns.",
+            "Grind the belladonna and add it to the cauldron.",
+            "Finally, distil."
+        ]
+    },
+    {
+        "id": "aqua_vitalis",
+        "name": "Aqua Vitalis",
+        "description": "Reduces loss of health and slows bleeding.",
+        "base": "Water",
+        "ingredients": [
+            {
+                "item": "Dandelion⁠",
+                "quantity": 2
+            },
+            {
+                "item": "Marigold⁠",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Add the dandelion to the cauldron and boil for 1 turn.",
+            "Grind the marigold and add it to the cauldron.",
+            "Boil for 2 turns.",
+            "Finally, distil."
+        ]
+    },
+    {
+        "id": "artemisia_potion",
+        "name": "Artemisia potion",
+        "description": "Increases strength and, if good quality, reduces how much stamina it costs to attack and defend.",
+        "base": "Spirits",
+        "ingredients": [
+            {
+                "item": "Wormwood⁠",
+                "quantity": 2
+            },
+            {
+                "item": "Sage",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Add the sage to the cauldron and boil for 1 turn.",
+            "Grind the wormwood and add it to the cauldron.",
+            "Boil for 2 turns.",
+            "Finally, distil."
+        ]
+    },
+    {
+        "id": "bane_poison",
+        "name": "Bane poison",
+        "description": "Depletes 110 health and therefore leads to certain death. In better quality, it depletes health faster. It's better for poisoning cauldrons than applying to weapons.",
+        "base": "Wine",
+        "ingredients": [
+            {
+                "item": "Wormwood⁠",
+                "quantity": 1
+            },
+            {
+                "item": "Belladonna⁠",
+                "quantity": 2
+            },
+            {
+                "item": "Amanita muscaria⁠",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Add the wormwood to the cauldron and boil for 2 turns.",
+            "Grind the belladonna and add to the cauldron.",
+            "Boil for one turn using the bellows.",
+            "Add the fly agaric to the cauldron.",
+            "Finally, distil."
+        ]
+    },
+    {
+        "id": "bowmans_brew",
+        "name": "Bowman's Brew",
+        "description": "Improves your archery skill and, if good quality, reduces loss of stamina while aiming.",
+        "base": "Spirits",
+        "ingredients": [
+            {
+                "item": "Eyebright⁠",
+                "quantity": 2
+            },
+            {
+                "item": "St. John's wort",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Add the eyebright to the cauldron and boil for 3 turns.",
+            "Grind the St. John's wort and add to the cauldronpink.",
+            "Boil for 1 turn using the bellows.",
+            "Finally, distil."
+        ]
+    },
+    {
+        "id": "bucks_blood",
+        "name": "Buck's Blood",
+        "description": "Increases stamina and increases stamina regeneration if good quality.",
+        "base": "Oil",
+        "ingredients": [
+            {
+                "item": "St. John's wort",
+                "quantity": 1
+            },
+            {
+                "item": "Dandelion",
+                "quantity": 1
+            },
+            {
+                "item": "Comfrey",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Grind the St. John's wort and add it to the cauldron.",
+            "Add the comfrey to the cauldron and boil for 1 turn.",
+            "Add the dandelion to the cauldron and using the bellows, boil for one turn.",
+            "Finally, pour."
+        ]
+    },
+    {
+        "id": "chamomile_decoction",
+        "name": "Chamomile decoction",
+        "description": "Sleep heals you faster and if good quality, energy replenishes faster while sleeping.",
+        "base": "Wine",
+        "ingredients": [
+            {
+                "item": "Chamomile⁠",
+                "quantity": 2
+            },
+            {
+                "item": "Sage",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Add the chamomile and boil for 1 turn.",
+            "Grind the sage and add it to the cauldron.",
+            "Finally, pour."
+        ]
+    },
+    {
+        "id": "cockerel_potion",
+        "name": "Cockerel potion",
+        "description": "Increases energy and in better qualities slows down fatigue.",
+        "base": "Spirits",
+        "ingredients": [
+            {
+                "item": "Valerian⁠",
+                "quantity": 1
+            },
+            {
+                "item": "Mint",
+                "quantity": 2
+            }
+        ],
+        "instructions": [
+            "Grind the mint and add to the cauldron.",
+            "Boil for 1 turn.",
+            "Add the valerian and boil for 2 turns.",
+            "Finally, distil."
+        ]
+    },
+    {
+        "id": "digestive_potion",
+        "name": "Digestive potion",
+        "description": "Reduces the feeling of fullness after food and cures food poisoning. If good quality, cures any poisoning, as well as boosting your vitality.",
+        "base": "Water",
+        "ingredients": [
+            {
+                "item": "Nettle⁠",
+                "quantity": 1
+            },
+            {
+                "item": "Thistle⁠",
+                "quantity": 2
+            },
+            {
+                "item": "Charcoal⁠",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Add the thistle to the cauldron and boil for 2 turns.",
+            "Grind the nettle and add it to the cauldron.",
+            "Boil for 1 turn.",
+            "Grind the charcoal and add it to the cauldron.",
+            "Finally, pour."
+        ]
+    },
+    {
+        "id": "dollmaker_poison",
+        "name": "Dollmaker poison",
+        "description": "Disables running and reduces weapon skills. In better qualities, it also reduces Health. It's better suited to applying to weapons than poisoning food pots.",
+        "base": "Spirits",
+        "ingredients": [
+            {
+                "item": "Valerian⁠",
+                "quantity": 1
+            },
+            {
+                "item": "Herb Paris⁠",
+                "quantity": 2
+            }
+        ],
+        "instructions": [
+            "Add the herb paris to the cauldron and boil for 3 turns.",
+            "Grind the valerian and add it to the cauldron.",
+            "Boil for 2 turns.",
+            "Finally, distil."
+        ]
+    },
+    {
+        "id": "embrocation",
+        "name": "Embrocation",
+        "description": "Increases Agility and in better qualities reduces how much stamina sprinting drains.",
+        "base": "Oil",
+        "ingredients": [
+            {
+                "item": "Eyebright",
+                "quantity": 1
+            },
+            {
+                "item": "Poppy",
+                "quantity": 1
+            },
+            {
+                "item": "Valerian",
+                "quantity": 1
+            },
+            {
+                "item": "Boar's tusk⁠",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Add the poppy and valerian to the cauldron and boil for 2 turns.",
+            "Grind the eyebright and add it to the cauldron.",
+            "Add the boar's tusk and boil for 1 turn.",
+            "Finally, pour."
+        ]
+    },
+    {
+        "id": "fever_tonicum",
+        "name": "Fever tonicum",
+        "description": "Fever and its complications can often end in death. This tonic will relieve and soothe the fever if given in time.",
+        "base": "Wine",
+        "ingredients": [
+            {
+                "item": "Feverfew",
+                "quantity": 3
+            },
+            {
+                "item": "Ginger",
+                "quantity": 2
+            },
+            {
+                "item": "Elderberry leaves⁠",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Add the feverfew and boil for 2 turns.",
+            "Grind the elderberry leaves and add them to the cauldron.",
+            "Add the ginger.",
+            "Finally, distil."
+        ]
+    },
+    {
+        "id": "fox_potion",
+        "name": "Fox potion",
+        "description": "Improves speech and speeds up reading if good quality. Also increases the amount of experience gained if best quality.",
+        "base": "Oil",
+        "ingredients": [
+            {
+                "item": "Nettle",
+                "quantity": 1
+            },
+            {
+                "item": "St. John's wort",
+                "quantity": 1
+            },
+            {
+                "item": "Belladonna",
+                "quantity": 1
+            },
+            {
+                "item": "Charcoal⁠",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Grind the St. John's wort and nettles.",
+            "Add them to the cauldron and boil for 2 turns.",
+            "Grind the charcoal and add it to the cauldron.",
+            "Add the belladonna and boil for 1 turn.",
+            "Finally, pour."
+        ]
+    },
+    {
+        "id": "hair_o_the_dog",
+        "name": "Hair o' the Dog",
+        "description": "Reduces drunkenness or, in better quality, removes it completely. In better qualities it also helps with hangovers or alcoholism.",
+        "base": "Water",
+        "ingredients": [
+            {
+                "item": "Sage",
+                "quantity": 1
+            },
+            {
+                "item": "St. John's wort",
+                "quantity": 1
+            },
+            {
+                "item": "Mint",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Add the sage and St. John's wort to the cauldron.",
+            "Boil for 3 turns.",
+            "Grind the mint and add it to the cauldron.",
+            "Finally, pour."
+        ]
+    },
+    {
+        "id": "lead_shot_gunpowder",
+        "name": "Lead shot gunpowder",
+        "description": "Gunpowder used to fire lead shot that even the best plate armour can't stop at close range. For safety reasons, load only when sober.",
+        "base": "Water",
+        "ingredients": [
+            {
+                "item": "Sulphur",
+                "quantity": 1
+            },
+            {
+                "item": "Saltpetre",
+                "quantity": 1
+            },
+            {
+                "item": "Charcoal⁠",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Grind the sulphur and saltpetre and add it to the cauldron.",
+            "Boil for 2 turns.",
+            "Grind the charcoal and add to the cauldron.",
+            "Boil for two turns.",
+            "Pour into a mortar and grind."
+        ]
+    },
+    {
+        "id": "lethean_water",
+        "name": "Lethean Water",
+        "description": "If you want to put to rights the imprudent choices of your life, all it takes is 1 mouthful, and you can chose your perks anew. Beware, though, the procedure is irreversible and painful!",
+        "base": "Spirits",
+        "ingredients": [
+            {
+                "item": "Wormwood⁠",
+                "quantity": 2
+            },
+            {
+                "item": "Belladonna",
+                "quantity": 1
+            },
+            {
+                "item": "Henbane",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Grind the wormwood and add it to the cauldron.",
+            "Add the belladonna and brew for 3 turns.",
+            "Add the henbane.",
+            "Finally, distil."
+        ]
+    },
+    {
+        "id": "lion_perfume",
+        "name": "Lion perfume",
+        "description": "A strong but short-lasting perfume. Substantially increases charisma for short periods, but reduces charisma if combined with another perfume.",
+        "base": "Spirits",
+        "ingredients": [
+            {
+                "item": "Sage",
+                "quantity": 2
+            },
+            {
+                "item": "Mint",
+                "quantity": 2
+            }
+        ],
+        "instructions": [
+            "Add the sage to the cauldron and boil for 2 turns.",
+            "Grind the mint and add it to the cauldron.",
+            "Finally, pour."
+        ]
+    },
+    {
+        "id": "lullaby_potion",
+        "name": "Lullaby potion",
+        "description": "Reduces energy to 0. Reduces stamina regeneration if good quality. Suitable for applying to weapons and for poisoning cooking pots.",
+        "base": "Oil",
+        "ingredients": [
+            {
+                "item": "Poppy",
+                "quantity": 1
+            },
+            {
+                "item": "Herb Paris",
+                "quantity": 1
+            },
+            {
+                "item": "Thistle⁠",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Add the poppy and boil for 1 turn.",
+            "Add the thistle and boil for 1 turn.",
+            "Grind the herb paris and add it to the cauldron.",
+            "Finally, pour."
+        ]
+    },
+    {
+        "id": "mandrake_decoction",
+        "name": "Mandrake decoction",
+        "description": "Heals health over a period of time. In better qualities, it increases Vitality and unblocked strikes deplete stamina less.",
+        "base": "Wine",
+        "ingredients": [
+            {
+                "item": "Mandrake root⁠",
+                "quantity": 1
+            },
+            {
+                "item": "Sage",
+                "quantity": 1
+            },
+            {
+                "item": "Freshwater pearl⁠",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Add in the mandrake and boil for 1 turn.",
+            "Grind the river pearl and add it to the cauldron.",
+            "Boil for 1 turn.",
+            "Grind the sage and add to the cauldron.",
+            "Using the bellows, boil for 1 turn.",
+            "Finally, distil."
+        ]
+    },
+    {
+        "id": "marigold_decoction",
+        "name": "Marigold decoction",
+        "description": "Gradually heals part of your health. Helps against hangover, or cures it immediately if good quality.",
+        "base": "Water",
+        "ingredients": [
+            {
+                "item": "Nettle",
+                "quantity": 1
+            },
+            {
+                "item": "Marigold⁠",
+                "quantity": 2
+            }
+        ],
+        "instructions": [
+            "Add the nettle to the cauldron and boil for 2 turns.",
+            "Grind the marigold and add it to the cauldron.",
+            "Finally, pour."
+        ]
+    },
+    {
+        "id": "mintha_perfume",
+        "name": "Mintha perfume",
+        "description": "A weak but long-lasting perfume. Slightly increases charisma for a long period, but reduces charisma if used with another perfume.",
+        "base": "Wine",
+        "ingredients": [
+            {
+                "item": "Dandelion",
+                "quantity": 3
+            },
+            {
+                "item": "Marigold⁠",
+                "quantity": 1
+            },
+            {
+                "item": "Mint",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Grind the dandelion and mint and add them to the cauldron.",
+            "Boil for 2 turns.",
+            "Add the marigold to the cauldron and boil for one turn using the bellows.",
+            "Finally, distil."
+        ]
+    },
+    {
+        "id": "moonshine",
+        "name": "Moonshine",
+        "description": "Henry's home-brewed moonshine. A strong drink that is sure to put you in a good mood.",
+        "base": "Spirits",
+        "ingredients": [
+            {
+                "item": "Mint",
+                "quantity": 2
+            },
+            {
+                "item": "Wormwood⁠",
+                "quantity": 2
+            }
+        ],
+        "instructions": [
+            "Add the wormwood to the cauldron and boil for 2 turns.",
+            "Grind the mint and add it to the cauldron.",
+            "Boil for 1 turn.",
+            "Finally, distil."
+        ]
+    },
+    {
+        "id": "nighthawk_potion",
+        "name": "Nighthawk potion",
+        "description": "You will see better in the dark and your energy will deplete slower or if good quality, not at all.",
+        "base": "Water",
+        "ingredients": [
+            {
+                "item": "Eyebright",
+                "quantity": 2
+            },
+            {
+                "item": "Belladonna",
+                "quantity": 1
+            },
+            {
+                "item": "Chamomile⁠",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Grind the eyebright and add it to the cauldron.",
+            "Add the belladonna and boil for 3 turns.",
+            "Grind the chamomile and add it to the cauldron.",
+            "Finally, pour."
+        ]
+    },
+    {
+        "id": "painkiller_brew",
+        "name": "Painkiller brew",
+        "description": "Lessens the effects of wounds and reduces the amount by which maximum stamina decreases with health.",
+        "base": "Spirits",
+        "ingredients": [
+            {
+                "item": "Poppy",
+                "quantity": 3
+            },
+            {
+                "item": "Comfrey",
+                "quantity": 1
+            },
+            {
+                "item": "Marigold⁠",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Grind the poppy and add it to the cauldron.",
+            "Add the marigold and using the bellows, boil for one turn.",
+            "Add the comfrey and boil for 2 turns.",
+            "Finally, distil."
+        ]
+    },
+    {
+        "id": "qickfinger_potion",
+        "name": "Quickfinger potion",
+        "description": "Increases thievery and craftsmanship skills.",
+        "base": "Water",
+        "ingredients": [
+            {
+                "item": "Eyebright",
+                "quantity": 2
+            },
+            {
+                "item": "Valerian",
+                "quantity": 1
+            },
+            {
+                "item": "Cobweb",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Add the cobweb and eyebright to the cauldron and boil for 3 turns.",
+            "Grind the valerian and add it to the cauldron.",
+            "Boil for 1 turn.",
+            "Finally, pour."
+        ]
+    },
+    {
+        "id": "scattershot_gunpowder",
+        "name": "Scattershot gunpowder",
+        "description": "Gunpowder for shooting scrap iron and other small projectiles. Will pierce anything with ease at close range, but is ineffective at long range. For safety reasons, load only when sober.",
+        "base": "Water",
+        "ingredients": [
+            {
+                "item": "Sulphur",
+                "quantity": 1
+            },
+            {
+                "item": "Saltpetre",
+                "quantity": 1
+            },
+            {
+                "item": "Leached coal",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Grind the sulphur and saltpetre and add them to the cauldron.",
+            "Boil for 3 turns.",
+            "Grind the infused charcoal and add it to the cauldron.",
+            "Boil for 1 turn.",
+            "Pour into a mortar and grind."
+        ]
+    },
+    {
+        "id": "saviour_schnapps",
+        "name": "Saviour Schnapps",
+        "description": "Saves the game and if good quality, boosts strength, vitality and agility.",
+        "base": "Wine",
+        "ingredients": [
+            {
+                "item": "Nettle",
+                "quantity": 1
+            },
+            {
+                "item": "Belladonna",
+                "quantity": 2
+            }
+        ],
+        "instructions": [
+            "Add the nettle to the cauldron and boil for 2 turns.",
+            "Grind the belladonna.",
+            "Add the belladonna to the cauldron and boil for 1 turn.",
+            "Finally, pour."
+        ]
+    },
+    {
+        "id": "soap",
+        "name": "Soap",
+        "description": "You can't wash your own clothes without soap.",
+        "base": "Oil",
+        "ingredients": [
+            {
+                "item": "Thistle⁠",
+                "quantity": 2
+            },
+            {
+                "item": "Dandelion",
+                "quantity": 1
+            },
+            {
+                "item": "Charcoal⁠",
+                "quantity": 1
+            }
+        ],
+        "instructions": [
+            "Grind the thistle and add it to the cauldron.",
+            "Boil for 2 turns.",
+            "Add the dandelion to the cauldron and boil for 1 turn.",
+            "Grind the charcoal and add it to the cauldron.",
+            "Finally, pour."
+        ]
+    }
+]

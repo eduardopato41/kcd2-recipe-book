@@ -1,0 +1,178 @@
+/* Variables */
+* {
+    --text-color: #e7eaf3;
+    --background-color: #090c16;
+    --primary-color: #8fa1dc;
+    --secondary-color: #223c91;
+    --accent-color: #2754dd;
+    --heading-font: "Pirata One", system-ui;
+    --text-font: "Be Vietnam Pro", sans-serif;
+}
+
+/* General */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+main {
+    margin: 1.5rem;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+main li {
+    padding: 0.25rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+main li:last-child {
+    border-bottom: none;
+}
+
+#recipe,
+#container {
+    margin: 1.5rem;
+}
+
+/* Typography */
+body {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2 {
+    margin-top: 0;
+    font-family: var(--heading-font);
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2:after {
+    content: ' ';
+    display: block;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+/* Recipe Display */
+#recipe-heading p {
+    padding-top: 0.75rem;
+}
+
+/* Pills */
+#recipe-ingredients {
+    padding: 0.5rem 0;
+}
+
+.recipe-ingredients-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.75rem 0 0.5rem;
+    margin-top: 0.75rem;
+    border-top: 1px solid rgba(255, 255, 255, .15);
+}
+
+.recipe-ingredients-header h3, .recipe-base {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.recipe-base {
+    color: rgba(255, 255, 255, 0.44);
+    font-size: 0.55rem;
+}
+
+.pill-base {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    /* padding: 0.25rem 0.5rem; */
+    /* margin-left: 0.25rem; */
+    /* border: 1px solid var(--primary-color); */
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+#recipe-ingredients-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.pill-ingredient {
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    border-radius: 5px;
+}
+
+#recipe-instructions-items {
+    padding-top: 0.75rem;
+    margin-top: 1.25rem;
+    border-top: 1px solid rgba(255, 255, 255, .15);
+}
+
+#recipe-instructions-items li {
+    list-style: decimal;
+    list-style-position: inside;
+    padding-bottom: 0.5rem;
+}
+
+#recipe-instructions-items li:last-child {
+    padding-bottom: 0;
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) {
+
+    /* Applies styles when viewport is at least 768px wide */
+    main {
+        margin: 2rem;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 576px) {
+    /* Applies styles when viewport is at least 576px wide */
+
+}
